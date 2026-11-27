@@ -1,0 +1,15 @@
+# 环境变量与密钥（不上传）
+.env
+.env.*
+!.env.example
+
+# 超过 GitHub 单文件 100 MB 上限，仓库中以 doc/*.zip.001~004 分卷形式保存
+/doc/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
